@@ -1,0 +1,53 @@
+package entities;
+
+import java.time.LocalDateTime;
+
+public abstract class Base { // Clase abstracta
+    
+    // Atributos
+    private Long id;
+    private boolean eliminado;
+    private LocalDateTime createdAt;
+    
+    // Constructor vacio
+    public Base() {
+        this.eliminado = false;
+        this.createdAt = LocalDateTime.now();
+    }
+    
+    //Constructor completo
+    public Base(Long id, boolean eliminado, LocalDateTime createdAt) {
+        this.id = id;
+        this.eliminado = eliminado;
+        this.createdAt = createdAt;
+    }
+    
+    // Getters y Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public boolean isEliminado() {
+        return eliminado;
+    }
+
+    public void setEliminado(boolean eliminado) {
+        this.eliminado = eliminado;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    @Override
+    public abstract String toString();
+
+}
