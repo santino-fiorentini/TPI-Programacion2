@@ -11,11 +11,11 @@
 
 ---
 
-### 👥 Grupo x
+### 👥 Grupo 56
 | Nombre | Comisión |
 |---------|-----------|
 | **Santino Fiorentini** | Comisión 4 |
-| **David Kenny** | Comisión x |
+| **David Kenny** | Comisión 7 |
 
 ---
 
