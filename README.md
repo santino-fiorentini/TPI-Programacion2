@@ -275,6 +275,14 @@ FoodStore.pdf
 
 ---
 
+## 🎥 Video Demostrativo
+
+Puede visualizarse el funcionamiento completo del sistema en el siguiente enlace:
+
+🔗 https://youtu.be/epgwzgb1iI8
+
+---
+
 ## 🧾 Conclusión
 
 Este proyecto permitió aplicar los principales conceptos desarrollados durante la cursada de Programación 2, especialmente Programación Orientada a Objetos, herencia, interfaces, colecciones y manejo de excepciones.
